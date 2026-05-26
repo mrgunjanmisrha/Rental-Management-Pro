@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Ram Janki Mandir</string>
+    <string name="app_tagline">Rental Management</string>
+    <string name="launch_title">Ram Janki Mandir</string>
+    <string name="launch_subtitle">Room and Garage Rental Management</string>
+
+    <string name="login_title">Rental Management Login</string>
+    <string name="login_subtitle">Manage rooms, garages, monthly setup, and collections in one place.</string>
+
+    <string name="dashboard_title">Home</string>
+    <string name="dashboard_subtitle">Owner operations overview</string>
+
+    <string name="home_brand_title">Ram Janki Mandir</string>
+    <string name="home_brand_subtitle">Room and Garage Rental Management</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_room">Rooms</string>
+    <string name="nav_garage">Garage</string>
+    <string name="nav_tenants">Tenants</string>
+    <string name="nav_payments">Payments</string>
+    <string name="nav_mandir">Mandir</string>
+
+    <string name="total_rooms">Total Rooms</string>
+    <string name="occupied_rooms">Occupied Rooms</string>
+    <string name="empty_rooms">Empty Rooms</string>
+    <string name="monthly_rent">Monthly Room Rent</string>
+    <string name="pending_rent">Pending Collection</string>
+    <string name="tenants_label">Garage Spaces</string>
+
+    <string name="mandir_expenses">Temple Expenses</string>
+    <string name="mandir_donations">Donations</string>
+    <string name="mandir_events">Events</string>
+    <string name="mandir_puja">Puja Details</string>
+    <string name="mandir_announcement">Announcements</string>
+
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_email">Sign in with email</string>
+    <string name="sign_in_google">Continue with Google</string>
+    <string name="sign_out">Sign out</string>
+    <string name="refresh_dashboard">Pull to refresh</string>
+    <string name="search_rooms">Search room or tenant</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_due">Due Soon</string>
+
+    <string name="save_record">Save record</string>
+    <string name="update_record">Update record</string>
+    <string name="create_room">Create Room</string>
+    <string name="create_garage">Create Garage</string>
+    <string name="rental_entry">Rental Entry</string>
+    <string name="vehicle_entry">Vehicle Entry</string>
+    <string name="view_created_data">Created or Entry Details</string>
+    <string name="month_list">Month List</string>
+    <string name="create_month">Create Month</string>
+    <string name="setup_payment">Setup </string>
+    <string name="view_payment_details">Payment Details</string>
+    <string name="user_list">App User List</string>
+    <string name="user_permissions">User Permissions</string>
+    <string name="close">Close</string>
+    <string name="edit">Edit</string>
+    <string name="monthly_room_billing">Monthly Room Billing</string>
+    <string name="monthly_garage_billing">Monthly Garage Billing</string>
+    <string name="firebase_missing_login_note">Firebase setup is required before live login can work.</string>
+    <string name="first_time_profile_note">First-time Google login will auto-create a profile.</string>
+    <string name="save_unit">Save unit</string>
+    <string name="finalize_status">Finalize Status</string>
+    <string name="rent_action">Rent</string>
+    <string name="power_action">Power</string>
+    <string name="open_detail">Open Detail ➡️</string>
+    <string name="no_records_yet">No records found yet.</string>
+    <string name="rent_received">Rent Receive</string>
+    <string name="electricity_received">Bijli Bill Receive</string>
+    <string name="detail_screen_title">Record Detail</string>
+    <string name="send_whatsapp">Send WhatsApp</string>
+    <string name="payment_summary_title">Payment Details</string>
+    <string name="total_payment">Total Payment</string>
+    <string name="received_payment">Received Payment</string>
+    <string name="pending_payment">Pending Payment</string>
+    <string name="room_payment_breakdown">Room and Power Breakdown</string>
+    <string name="month_setup_hint">Configure payments for the selected month.</string>
+    <string name="setup_room_payments">Setup Room Payments</string>
+    <string name="setup_garage_payments">Setup Garage Payments</string>
+    <string name="settings_title">Settings</string>
+    <string name="charge_received">Charge Received</string>
+    <string name="home_screen_title">Home</string>
+    <string name="home_screen_subtitle">Rental operations workspace</string>
+    <string name="home_toolbar_subtitle">Operational overview</string>
+    <string name="room_toolbar_subtitle">Monthly room billing</string>
+    <string name="garage_toolbar_subtitle">Monthly garage billing</string>
+    <string name="form_invalid_state">This form could not be opened. Please try again.</string>
+    <string name="firebase_setup_ready">Google sign-in and Firebase profile creation are ready.</string>
+    <string name="firebase_setup_missing">Firebase Google config is missing. Email login can still work after Firebase setup.</string>
+    <string name="garage_not_linked">No vehicle linked</string>
+    <string name="room_not_linked">No rental linked</string>
+</resources>

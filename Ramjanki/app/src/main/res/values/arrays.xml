@@ -1,0 +1,43 @@
+<resources>
+    <string-array name="room_status_options">
+        <item>pending</item>
+        <item>active</item>
+        <item>reject</item>
+    </string-array>
+
+    <string-array name="garage_status_options">
+        <item>pending</item>
+        <item>active</item>
+        <item>reject</item>
+    </string-array>
+
+    <string-array name="electricity_mode_options">
+        <item>included</item>
+        <item>separate</item>
+        <item>meter-based</item>
+    </string-array>
+
+    <string-array name="billing_mode_options">
+        <item>calendar_month</item>
+        <item>join_date</item>
+    </string-array>
+
+    <string-array name="payment_mode_options">
+        <item>Cash</item>
+        <item>UPI</item>
+        <item>Bank transfer</item>
+    </string-array>
+
+    <string-array name="vehicle_type_options">
+        <item>Bike</item>
+        <item>Car</item>
+        <item>Auto</item>
+        <item>Truck</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="final_status_options">
+        <item>complete</item>
+        <item>transfer</item>
+    </string-array>
+</resources>

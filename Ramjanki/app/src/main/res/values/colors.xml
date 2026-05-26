@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color: Deep Maroon / Temple Red -->
+    <color name="primary_maroon">#7A1F1F</color>
+    <color name="primary_maroon_light">#8B2323</color>
+    <color name="primary_maroon_dark">#5A1616</color>
+
+    <!-- Secondary Color: Golden / Saffron -->
+    <color name="secondary_gold">#D4A017</color>
+    <color name="secondary_gold_bright">#F4B400</color>
+    <color name="secondary_gold_soft">#FFD54F</color>
+
+    <!-- Background: Off-white temple stone -->
+    <color name="bg_cream">#FFF8F0</color>
+    <color name="surface_white">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#2B1B17</color>
+    <color name="text_secondary">#6B5B53</color>
+    <color name="text_on_maroon">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="status_paid">#16A34A</color>
+    <color name="status_pending">#DC2626</color>
+    <color name="status_due">#F4B400</color>
+
+    <!-- Overlay & Line Colors -->
+    <color name="line_gold_soft">#EED7A1</color>
+    <color name="shadow_soft">#1A2B1B17</color>
+
+    <!-- Legacy / Compatibility Mappings -->
+    <color name="ink_900">#2B1B17</color>
+    <color name="ink_700">#6B5B53</color>
+    <color name="sand_050">#FFF8F0</color>
+    <color name="sand_200">#FFF8F0</color>
+    <color name="mint_100">#8B2323</color>
+    <color name="mint_300">#7A1F1F</color>
+    <color name="clay_400">#7A1F1F</color>
+    <color name="clay_600">#5A1616</color>
+    <color name="sun_300">#D4A017</color>
+    <color name="surface_base">#FFF8F0</color>
+    <color name="surface_elevated">#FFFFFF</color>
+    <color name="line_soft">#EED7A1</color>
+    <color name="surface_neutral">#FFF8F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

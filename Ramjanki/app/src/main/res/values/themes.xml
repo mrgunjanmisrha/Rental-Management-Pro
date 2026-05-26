@@ -1,0 +1,94 @@
+<resources>
+    <style name="Base.Theme.RentalManagerPro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Main Colors -->
+        <item name="colorPrimary">@color/primary_maroon</item>
+        <item name="colorOnPrimary">@color/text_on_maroon</item>
+        <item name="colorPrimaryContainer">@color/primary_maroon_light</item>
+        <item name="colorOnPrimaryContainer">@color/text_on_maroon</item>
+
+        <item name="colorSecondary">@color/secondary_gold</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSecondaryContainer">@color/secondary_gold_soft</item>
+        <item name="colorOnSecondaryContainer">@color/text_primary</item>
+
+        <item name="colorSurface">@color/bg_cream</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceContainer">@color/surface_white</item>
+        <item name="colorOutline">@color/line_gold_soft</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/bg_cream</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Component Styles -->
+        <item name="materialButtonStyle">@style/Widget.Temple.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Temple.Button.Outline</item>
+        <item name="materialCardViewStyle">@style/Widget.Temple.Card</item>
+        <item name="bottomNavigationStyle">@style/Widget.Temple.BottomNavigation</item>
+        <item name="textInputStyle">@style/Widget.Temple.TextInputLayout</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Temple.FloatingActionButton</item>
+
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:windowBackground">@color/bg_cream</item>
+    </style>
+
+    <style name="Theme.RentalManagerPro" parent="Base.Theme.RentalManagerPro" />
+
+    <!-- Card Style: White/Cream card, thin golden border, soft shadow, 18dp+ corners -->
+    <style name="Widget.Temple.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardBackgroundColor">@color/surface_white</item>
+        <item name="strokeColor">@color/line_gold_soft</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <!-- Button Style: Maroon background -->
+    <style name="Widget.Temple.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/primary_maroon</item>
+        <item name="android:textColor">@color/text_on_maroon</item>
+    </style>
+
+    <style name="Widget.Temple.Button.Outline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/secondary_gold</item>
+        <item name="android:textColor">@color/primary_maroon</item>
+    </style>
+
+    <!-- Style Alias for Legacy Layouts -->
+    <style name="Widget.RentalManagerPro.Button.Outline" parent="Widget.Temple.Button.Outline" />
+
+    <!-- Bottom Navigation -->
+    <style name="Widget.Temple.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/surface_white</item>
+        <item name="itemIconTint">@color/primary_maroon</item>
+        <item name="itemTextColor">@color/primary_maroon</item>
+        <item name="itemRippleColor">@color/secondary_gold_soft</item>
+    </style>
+
+    <style name="Widget.Temple.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/line_gold_soft</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="hintTextColor">@color/primary_maroon</item>
+    </style>
+
+    <style name="Widget.Temple.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary_maroon</item>
+        <item name="tint">@color/white</item>
+    </style>
+    <style name="BoldToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="NavText" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

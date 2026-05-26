@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "747736508958",
+    "firebase_url": "https://ramjanki-mandir-default-rtdb.firebaseio.com",
+    "project_id": "ramjanki-mandir",
+    "storage_bucket": "ramjanki-mandir.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747736508958:android:e0f567df8b071acf41dc0f",
+        "android_client_info": {
+          "package_name": "com.gtechapps.ramjankimandir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747736508958-b8j3d7iho1mpe15nrt9pbplikom5mfqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzOurJaTXo_BsXiGuoTlfjb0u6uEGY8qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747736508958-b8j3d7iho1mpe15nrt9pbplikom5mfqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
